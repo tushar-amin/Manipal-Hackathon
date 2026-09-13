@@ -1,0 +1,48 @@
+{
+  "name": "nammafix-backend",
+  "version": "1.0.0",
+  "description": "AI-powered civic grievance platform backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration"
+  },
+  "keywords": [
+    "civic",
+    "complaints",
+    "ai",
+    "spatial"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.1",
+    "axios": "^1.6.2",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "form-data": "^4.0.5",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.2",
+    "pg": "^8.11.3",
+    "pino": "^8.17.2",
+    "pino-http": "^9.0.0",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "fast-check": "^3.15.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  }
+}
