@@ -350,13 +350,7 @@ NammaFix helps cities:
 
 ---
 
-# 👨‍💻 Team
 
-Team **VegaSync**
-
-Built for **Build for Bengaluru Hackathon**
-
----
 
 # ❤️ Built for Smarter Cities
 
