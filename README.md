@@ -35,19 +35,6 @@ NammaFix creates a **collaborative ecosystem between citizens, government, and m
 
 ---
 
-# 🎥 MVP Link
-https://build-for-bengaluru.vercel.app/
-
-🚀 **Live Backend API**
-
-https://build-for-bengaluru.onrender.com
-
-Example endpoint:
-
-https://build-for-bengaluru.onrender.com/api/heatmap
-
----
-
 # 👥 Platform Roles
 
 NammaFix supports **three user roles**.
@@ -221,7 +208,7 @@ Database → Supabase
 ### Architecture
 
 
-Build-For-Bengaluru/
+Manipal Hackathon/
 │
 ├── backend/
 │   ├── src/
